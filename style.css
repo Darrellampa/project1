@@ -1,0 +1,467 @@
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "serif",serif;
+}
+
+nav.navbar {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  background-color: #0000 !important;
+  width: 100%;
+}
+.navbar #logo1{
+  padding-left: 15%;
+  padding-top: 1%;
+}
+
+.navbar .navbar-brand {
+  color: #18c4c9;
+ padding-left: .5%;
+  font-size: xx-large;
+  font-weight: lighter;
+  padding-top: 1%;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link.active {
+  color: #18c4c9 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #18c4c9;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-left: auto;
+  padding-right: 18%;
+  padding-top: 1%;
+
+}
+#banner{
+
+    background-image: url(b.pic.png);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #30235f;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.btn-primary {
+    border: 1px solid #18c4c9;
+    color: #18c4c9;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#banner h1,p{
+    color: aliceblue;
+}
+
+#banner p{
+  color: #fff;
+}
+
+
+
+
+
+.dots {
+  margin-top: 12rem; 
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color:  rgba(252, 250, 250, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dot:first-child {
+  background-color: #18c4c9; 
+}
+
+#story{
+
+    padding: 50px;
+}
+#story h2,p{
+    color: black;
+}
+
+#watchV{
+
+    background-image: url(picVideo.png);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #30235f;
+    background-blend-mode: overlay;
+    position: relative;
+}
+#icon{
+
+   
+    margin-bottom: 5%;
+  
+}
+ h3{
+    color: aliceblue;
+    
+}
+#expert{
+
+    align-items: center;
+    padding: 50px;
+
+}
+.separator {
+    width: 1.5cm;
+    height: 1px;
+    background-color: rgb(184, 176, 176); 
+    margin: 20px auto; 
+}
+.separator2 {
+    width: 30cm;
+    height: .1px;
+    background-color: rgb(192, 185, 185); 
+    margin: 30px auto;}
+
+   #expert h6{
+       padding: 30px;
+    }
+
+    #expert p{
+font-weight: 200;
+     }
+
+
+    #meetT{
+
+        background-image: url(meetTback.png);
+        height: 90vh;
+        align-items: center;
+        padding: 50px;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #30235f;
+        background-blend-mode: overlay;
+        position: relative;
+
+    }
+    #meetT h6{
+     padding-top: 20px;
+color: white;
+     }
+
+     #meetT p{
+       font-weight: 200;
+       color: #fff;
+  
+        }
+        #meetT #text{
+          color: rgb(243, 236, 236);
+          font-family: "serif",serif;
+          width: 20;
+          font-weight: 700;
+        }
+
+
+        .separatorTsec{
+
+            width: 5cm;
+            height: .1px;
+            background-color: rgb(110, 105, 105); 
+            margin: 30px auto;}
+        
+
+        
+            #works h3{
+                color: black;
+                padding: 50px;
+                font-style: serif;
+
+            }
+          
+         #works p{
+           
+            align-items: flex-end;
+            padding-left: 32rem;
+            padding-top: 5rem;
+         }
+
+
+     
+        
+          .photo-section img {
+            width: calc(17.66% );
+           
+          }
+          #button{
+
+            padding-bottom: 50px;
+          }
+
+          #ceo{
+
+            background-image: url(backR4.png);
+            height: 55vh;
+            align-items: center;
+            padding: 50px;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #30235f;
+            background-blend-mode: overlay;
+            position: relative;
+          }
+
+          #hp h1{
+            color: rgb(244, 244, 244);
+          font-size: 50px;
+         
+          }
+
+          #hp p{
+            color: white;
+            font-size: 15px;
+           
+          
+          }
+
+
+
+
+          #hp1{
+            padding-top: 3%;
+          }
+          #hp1 h6{
+            color: white;
+            font-weight: .1px;
+          }
+
+          #hp1 p{
+            color: rgb(175, 172, 172);
+            font-weight: .1px;
+          }
+
+#back{
+  padding-right: 10px;
+}
+#forward{
+ padding-left: 10px;
+}
+
+
+
+
+
+#contact{
+  padding: 50px;
+}
+
+#contact h3{
+ color: black;
+ 
+}
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+
+
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 90%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#imgLogo{
+
+  padding: 30px;
+}
+#imgLogo2{
+
+  padding: 30px;
+  margin-left: 12rem;
+}
+
+
+#footer{
+
+  background-image: url(footerBackG.png);
+  height: 40vh;
+  align-items: center;
+  padding: 50px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #30235f;
+  background-blend-mode: overlay;
+  position: relative;
+
+
+
+
+}
+#logof{
+  height: 20%;
+  width: 10%;
+  margin-bottom: 10px;
+ 
+}
+
+#footer p {
+  color: rgb(255, 255, 255); 
+  padding: 20px;
+   font-size: small;
+}
+
+#footer h6 {
+  color: rgb(255, 255, 255);
+  padding-left: 2%;
+}
+#footer h1 {
+  color: rgb(255, 255, 255);
+  padding-right: 50%;
+ 
+}
+.social{
+
+  padding-left: 5%
+}
+.audio{
+  padding-left: 5%
+}
+
+#loc{
+  padding-top: 2%;
+}
+
+#phone{
+
+ padding-bottom: 5%;
+}
+
+.subscribe-box {
+  width: 2in;
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#fname{
+  background-color: transparent;
+  width: auto;
+  height: 40px;
+
+ 
+ 
+}
+.subscribe-box {
+ 
+  width: 200px; 
+}
+
+#arrow {
+  padding: 5px; 
+  background-color: rgba(204, 204, 204, 0.5);
+  display: inline-block; 
+  width: 40px;
+  height: 39px; 
+  margin-left: 10px;
+  margin-top: 24%;
+
+}
+
+#footer  a{
+  color: white; 
+  text-decoration: none; 
+  padding: 20px;
+  margin-bottom: 30%;
+}
+#copyR{
+  color: #fff;
+  padding-left: 18rem;
+}
+#footer h3{
+  color: #18c4c9;
+  padding-top: 2%;
+  margin-left: 3%;
+  font-weight: lighter;
+ 
+}
+.separator1 {
+  width: 1.50cm;
+  height: 1px;
+  background-color: #18c4c9; 
+  margin: 20px auto; 
+}
+
+#footer h6{
+  margin-top: 2%;
+
+}
+#icons img{
+  
+  display: inline-block; 
+  margin: 0 3px; 
+  border-radius: 50%; 
+  border: 1px solid white; 
+  padding: 10px;
+ background-color: transparent;
+ width: 35px;
+ height: 35px;
+}
+
+
+#samp1{
+text-align: center;
+  padding: 50px;
+}
